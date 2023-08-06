@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  font-size: 14px;
+}
+body {
+  background-image: linear-gradient(to bottom right, white, #d4f2ff) !important;
+  overflow-x: hidden;
+}
+
+/* ck editor */
+figure.image {
+  margin: 0 auto !important;
+}
+figure.image img {
+  width: 100% !important;
+}
+figure.table {
+  margin: 0 auto !important;
+}
+figure.table table {
+  width: 100% !important;
+  align-content: center !important;
+}
+blockquote {
+  background: #f9f9f9 !important;
+  border-left: 10px solid #ccc !important;
+  margin: 1.5em 10px !important;
+  padding: 0.5em 10px !important;
+  quotes: "\201C""\201D""\2018""\2019" !important;
+  font-style: italic !important;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+/* .image-style-align-left {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+.image-style-align-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+.image-style-align-right {
+  display: flex !important;
+  justify-content: flex-end !important;
+} */
+
+/* kode ini untuk handle runtime error ketika interceptor unauthorized */
+body > iframe {
+  display: none;
+}
+
+.c-btn {
+  background-color: #5356fb !important;
+  color: white !important;
+  border-radius: 15px !important;
+}
+.card {
+  background-color: white !important;
+  border: 1px solid transparent !important;
+  border-radius: 10px !important;
+}
+.ant-input:hover,
+.ant-input:focus {
+  border: 1px solid #5356fb !important;
+}
+.ant-select-dropdown {
+  z-index: 10000 !important;
+}
+.navbar-modal .ant-modal-content {
+  padding: 15px 0 !important;
+  border-radius: none !important;
+}
+.navbar-modal .ant-modal-content .ant-select-selector {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* react tooltip */
+.react-tooltip {
+  width: 200px !important;
+}

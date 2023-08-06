@@ -1,0 +1,24 @@
+import React from "react";
+import { Button } from "antd";
+
+export default function ButtonCustom({ text, loading, click }) {
+  return (
+    <div>
+      <Button
+        type="primary"
+        loading={loading}
+        onClick={click}
+        style={{
+          backgroundColor: "#5356FB",
+          color: "white",
+          border: "#5356FB",
+          marginRight: "2px",
+          float: "right",
+          margin: "15px 0",
+        }}
+      >
+        {text}
+      </Button>
+    </div>
+  );
+}
